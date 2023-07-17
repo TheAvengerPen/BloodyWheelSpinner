@@ -1,0 +1,81 @@
+.sa {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid purple;
+    transition: all ease 5s;
+    transform-origin: center;
+    transform: rotate(0deg);
+}
+
+.spa {
+    clip-path: polygon(0% 92%, 100% 50%, 0 8%);
+    background-color: aquamarine;
+    top: 125px;
+    left: 0;
+    border: 5px;
+    border-color: 2px solid purple;
+    transform-origin: center;
+    transform: rotate(0deg);
+}
+
+.spb {
+    clip-path: polygon(0% 92%, 100% 50%, 0 8%);
+    background-color: gold;
+    top: 125px;
+    left: 0;
+    border: 5px;
+    border-color: 2px solid purple;
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+.sa2 {
+    height: 100%;
+    width: 100%;
+    transform: rotate(90deg);
+    transform-origin: center;
+}
+
+.sa3 {
+    height: 100%;
+    width: 100%;
+    transform: rotate(135deg);
+    transform-origin: center;
+}
+
+.sa4 {
+    height: 100%;
+    width: 100%;
+    transform: rotate(180deg);
+    transform-origin: center;
+}
+
+.sa5 {
+    height: 100%;
+    width: 100%;
+    transform: rotate(225deg);
+    transform-origin: center;
+}
+
+.sa6 {
+    height: 100%;
+    width: 100%;
+    transform: rotate(270deg);
+    transform-origin: center;
+}
+
+.sa7 {
+    height: 100%;
+    width: 100%;
+    transform: rotate(315deg);
+    transform-origin: center;
+}
+
+.sa8 {
+    height: 100%;
+    width: 100%;
+    transform: rotate(360deg);
+    transform-origin: center;
+}

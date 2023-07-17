@@ -1,0 +1,128 @@
+*{
+    box-sizing: boarder-dox;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wheel {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    padding-top: 50px;
+}
+.arrow{
+    width: 100px;
+    padding-top: 50px;
+    transform: translate(90deg)
+}
+
+.sa {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid purple;
+    /*overflow: hidden;*/
+    transition: all ease 5s;
+}
+span {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.spa{
+    position: absolute;
+    clip-path: polygon(0% 92%, 100% 50%, 0% 8%);
+    background-color: aquamarine;
+    top: 125px;
+    left: 0;
+    border: 5px;
+    border-color: 2px solid purple;
+    transform-origin: center;
+}
+.spb{
+    position: absolute;
+    clip-path: polygon(0% 92%, 100% 50%, 0% 8%);
+    background-color: gold;
+    top: 125px;
+    left: 0;
+    border: 5px;
+    border-color: 2px solid purple;
+    transform-origin: center;
+}
+.sa2{
+    height: 100%;
+    width: 100%;
+    transform: rotate(45deg);
+}
+.sa3{
+    height: 100%;
+    width: 100%;
+    transform: rotate(90deg);
+}
+.sa4{
+    height: 100%;
+    width: 100%;
+    transform: rotate(135deg);
+}
+.sa5{
+    height: 100%;
+    width: 100%;
+    transform: rotate(180deg);
+}
+.sa6{
+    height: 100%;
+    width: 100%;
+    transform: rotate(225deg);
+}
+.sa7{
+    height: 100%;
+    width: 100%;
+    transform: rotate(270deg);
+}
+.sa8{
+    height: 100%;
+    width: 100%;
+    transform: rotate(315deg);
+    transform-origin: center;
+}
+
+span strong{
+    line-height: 100%;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    background-color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+}
+
+.rotatewheel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.rotatewheel:active{
+    width: 20%;
+    height: 20%;
+    font-size: 20px;
+}
